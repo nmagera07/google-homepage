@@ -1,0 +1,127 @@
+
+
+.blue-color {
+    color: rgba(57, 113, 233, 0.836);
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.red-color {
+    color: rgba(231, 41, 41, 0.959);
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.green-color {
+    color: rgba(4, 165, 26, 0.952);
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.yellow-color {
+    color: rgba(255, 174, 0, 0.849);
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+li {
+    float: left;
+}
+
+.link-2, .sign-in {
+    float: right;
+}
+
+.sign-in {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    display: inline-block;
+    font-weight: bold;
+    
+    margin-right: 20px;
+}
+
+.sign-in a {
+    color: white !important;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 13px;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(223, 217, 217, 0.25);
+    color: gray;
+    text-align: center;
+    padding: 0;
+    border-top: 1px rgb(228, 226, 226) solid;
+    
+}
+
+footer li a {
+    color: gray;
+    margin-left: 15px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 125px;
+}
+
+#images {
+    text-align: right;
+}
+
+form {
+    text-align: center;
+}
+
+#search {
+    margin-top: 25px;
+}
+
+textarea {
+    border: 1px rgba(223, 217, 217, 0.50) solid;
+    resize: none;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px #c2c0c0;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: rgba(223, 222, 222, .30);
+    color: gray;
+    border-radius: 1px;
+    margin: 5px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
